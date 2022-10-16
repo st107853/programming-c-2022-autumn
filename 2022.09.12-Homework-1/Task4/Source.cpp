@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 
 	std::cin >> v >> t;
 
-	std::cout << (s+(v*t)%s)%s << std::endl;
+	std::cout << (s + (v * t) % s) % s << std::endl;
 
 	return EXIT_SUCCESS;
 }

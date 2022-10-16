@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 	a = b;
 	b = s;
 
-	std::cout << a<<" "<< b << std::endl;
+	std::cout << a << " " << b << std::endl;
 
 	return EXIT_SUCCESS;
 }

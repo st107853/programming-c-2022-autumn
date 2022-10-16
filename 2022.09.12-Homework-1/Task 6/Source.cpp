@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 
 	std::cin >> a;
 
-	std::cout << (a/2)*2 + 2 << std::endl;
+	std::cout << (a / 2) * 2 + 2 << std::endl;
 
 	return EXIT_SUCCESS;
 }
