@@ -25,6 +25,7 @@ int main(int argc, char* argv[])
 		{
 			ma = (ma > a[i] ? a[i] : ma);
 		}
+
 		else if ((a[i] - num) * (a[i] - num) < len)
 		{
 			ma = a[i];

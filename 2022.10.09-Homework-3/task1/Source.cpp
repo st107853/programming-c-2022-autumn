@@ -14,6 +14,7 @@ int main(int argc, char* argv[])
 			++a;
 		}
 	}
+
 	else
 	{
 		while (a >= b)

@@ -4,13 +4,13 @@ int main(int argc, char* argv[])
 {
 
 	int cnt = 0;
-	int a = 1;
+	int n = 1;
 
-	while (a != 0)
+	while (n != 0)
 	{
-		std::cin >> a;
+		std::cin >> n;
 
-		if (a % 2 == -1)
+		if (n % 2 == -1)
 		{
 			++cnt;
 		}
