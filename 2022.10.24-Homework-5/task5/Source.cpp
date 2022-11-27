@@ -4,7 +4,7 @@ int main(int argc, char* argv[])
 {
 	int n = 0;
 	int ma = 0;
-	int len = 1000;
+	long len = 10000000;
 	int num = 0;
 
 	scanf_s("%d", &n);
