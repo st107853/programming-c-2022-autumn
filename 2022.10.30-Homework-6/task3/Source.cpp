@@ -4,11 +4,10 @@ int main(int argc, char* argv[])
 {
 	int n = 0;
 	int height = 0;
-	int num = 0;
 
 	scanf_s("%d", &n);
 
-	int* a = new int[n] {0};
+	int* a = new int[n + 1] {0};
 
 	for (int i = 0; i < n; ++i)
 	{
@@ -19,13 +18,9 @@ int main(int argc, char* argv[])
 
 	for (int i = 0; i < n + 1; ++i)
 	{
-		if (height <= a[i] && i < n)
+		if (height > a[i])
 		{
-			++num;
-		}
-		else
-		{
-			std::cout << ++num;
+			std::cout << ++i;
 			break;
 		}
 	}

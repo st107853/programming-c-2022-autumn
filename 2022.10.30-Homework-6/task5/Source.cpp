@@ -16,10 +16,12 @@ int main(int argc, char* argv[])
 
 		k = (a[i] < a[k] ? i : k);
 	}
+
 	for (int i = k; i < n; i++)
 	{
 		std::cout << a[i] << " ";
 	}
+
 	for (int i = 0; i < k; i++)
 	{
 		std::cout << a[i] << " ";

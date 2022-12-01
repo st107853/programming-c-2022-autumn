@@ -4,8 +4,8 @@ int main(int argc, char* argv[])
 {
 	int n = 0;
 	int m = 0;
-	int L = 0;
-	int R = 0;
+	int l = 0;
+	int r = 0;
 
 	scanf_s("%d", &n);
 
@@ -20,10 +20,10 @@ int main(int argc, char* argv[])
 
 	for (int i = 0; i < m; ++i)
 	{
-		scanf_s("%d", &L);
-		scanf_s("%d", &R);
+		scanf_s("%d", &l);
+		scanf_s("%d", &r);
 
-		for (int j = L - 1; j < R; ++j)
+		for (int j = l - 1; j < r; ++j)
 		{
 			std::cout << a[j] << " ";
 		}

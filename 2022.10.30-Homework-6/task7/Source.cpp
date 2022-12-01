@@ -25,9 +25,7 @@ int main(int argc, char* argv[])
 	for (int i = 0; i < n && tru; ++i)
 	{
 		pro = (tru == 1 ? pro * a[i] : pro);
-
 		tru = ((a[i] == ma || a[i] == mi) ? --tru : tru);
-
 		pro = (tru == 0 ? pro / a[i] : pro);
 	}
 
