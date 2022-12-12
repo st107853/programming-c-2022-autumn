@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
 
 	scanf_s("%d%d", &n, &m);
 
-	int** a = new int*[n];
+	int** a = new int* [n];
 	int* string = new int[n] {0};
 	int* column = new int[m] {0};
 

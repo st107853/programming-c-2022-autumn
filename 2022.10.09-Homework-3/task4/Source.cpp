@@ -14,7 +14,14 @@ int main(int argc, char* argv[])
 
 		do
 		{
-			std::cout << n - abs(d) << " ";
+			if (d >= 0)
+			{
+				std::cout << n - d << " ";
+			}
+			else
+			{
+				std::cout << n + d << " ";
+			}
 			++i;
 			++d;
 
