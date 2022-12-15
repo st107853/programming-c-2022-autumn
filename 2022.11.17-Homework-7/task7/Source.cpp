@@ -1,5 +1,14 @@
 #include<iostream>
 
+void del(int** arr, int n)
+{
+	for (int i = 0; i < n; ++i)
+	{
+		delete[] arr[i];
+	}
+	delete[] arr;
+}
+
 int main(int argc, char* argv[])
 {
 	int n = 0;
@@ -54,9 +63,9 @@ int main(int argc, char* argv[])
 		std::cout << std::endl;
 	}
 
-	delete[] a;
-	delete[] b;
-	delete[] ans;
+	del(a, n);
+	del(b, m);
+	del(ans, n);
 
 	return EXIT_SUCCESS;
 }

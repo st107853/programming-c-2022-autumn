@@ -12,6 +12,15 @@ int** array(int n)
 	return res;
 }
 
+void del(int** arr, int n)
+{
+	for (int i = 0; i < n; ++i)
+	{
+		delete[] arr[i];
+	}
+	delete[] arr;
+}
+
 int** spi(int** arr, int x, int y, int i, int n, int du)
 {
 	if (i > n * n)
@@ -72,7 +81,7 @@ int main(int argc, char* argv[])
 		std::cout << std::endl;
 	}
 
-	delete[] a;
+	del(a, n);
 
 	return EXIT_SUCCESS;
 }
