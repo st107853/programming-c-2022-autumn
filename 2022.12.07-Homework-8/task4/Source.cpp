@@ -14,9 +14,9 @@ void hanoi(int num, int from, int to, int buff)
 
 int main()
 {
-	int num;
+	int num = 0;
 
-	std::cin >> num;
+	scanf_s("%d", &num);
 
 	hanoi(num, 1, 2, 3);
 

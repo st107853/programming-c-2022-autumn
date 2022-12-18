@@ -20,7 +20,7 @@ int main(int argc, char* argv[])
 	int n = 0;
 	int k = 0;
 
-	std::cin >> n >> k;
+	scanf_s("%d%d", &n, &k);
 
 	std::cout << C(n, k);
 

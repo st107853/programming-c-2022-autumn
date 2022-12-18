@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 {
 	int n = 0;
 
-	std::cin >> n;
+	scanf_s("%d", &n);
 
 	std::cout << phi(n);
 
